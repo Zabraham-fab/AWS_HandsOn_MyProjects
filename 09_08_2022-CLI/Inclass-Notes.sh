@@ -1,5 +1,5 @@
 # AWS CLI
-# Guile - 09_08_2022
+# Zabraham - 09_08_2022
 
 # References
 # https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-welcome.html
@@ -57,15 +57,15 @@ aws iam delete-user --user-name aws-cli-user
 # S3
 aws s3 ls
 
-aws s3 mb s3://guile-cli-bucket
+aws s3 mb s3://Zabraham-cli-bucket
 
-aws s3 cp in-class.yaml s3://guile-cli-bucket
+aws s3 cp in-class.yaml s3://Zabraham-cli-bucket
 
-aws s3 ls s3://guile-cli-bucket
+aws s3 ls s3://Zabraham-cli-bucket
 
-aws s3 rm s3://guile-cli-bucket/in-class.yaml
+aws s3 rm s3://Zabraham-cli-bucket/in-class.yaml
 
-aws s3 rb s3://guile-cli-bucket
+aws s3 rb s3://Zabraham-cli-bucket
 
 
 # EC2
